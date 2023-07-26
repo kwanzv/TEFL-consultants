@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/src/index.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/2970948f95.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="fixed w-full z-50">
+      <nav class="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
+        <div
+          class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto z-10"
+        >
+          <a href="#" class="flex items-center">
+            <img src="/src/images/consulting.png" class="h-8" alt="TTC logo" />
+            <p class="text-large font-semibold ml-4">TEFL Consultants</p>
+          </a>
+          <div class="flex items-center lg:order-2">
+            <!-- <a href="#" class="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">Log in</a> -->
+            <a
+              href="#"
+              class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800"
+              >Free Consultation</a
+            >
+            <button
+              data-collapse-toggle="mobile-menu-2"
+              type="button"
+              class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              aria-controls="mobile-menu-2"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Open main menu</span>
+              <svg
+                class="w-6 h-6"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <svg
+                class="hidden w-6 h-6"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </button>
+          </div>
+          <div
+            class="items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1"
+            id="mobile-menu-2"
+          >
+            <ul
+              class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0"
+            >
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 pl-3 pr-4 text-white bg-purple-700 rounded lg:bg-transparent lg:text-purple-700 lg:p-0 dark:text-white"
+                  aria-current="page"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                  >Company</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                  >Jobs board</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                  >FAQs</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                  >Team</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section id="cta">
+      <div class="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:h-1/2 lg:grid-cols-2 pt-8">
+          <div class="relative z-10 lg:py-16">
+            <div class="relative h-64 sm:h-80 lg:h-full z-0">
+              <img
+                alt="consultation"
+                src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                class="absolute inset-0 h-full w-full object-cover"
+              />
+            </div>
+          </div>
+
+          <div class="relative flex items-center bg-gray-100">
+            <span
+              class="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-gray-100"
+            ></span>
+
+            <div class="p-8 sm:p-16 lg:p-24">
+              <h2 class="md:text-3xl font-bold text-2xl pb-4">
+                Giving you personalized information for those who are looking
+                for<br />
+                <span
+                  class="text-indigo-600 font-extrabold md:text-4xl text-2xl"
+                  >New Opportunities Abroad</span
+                >
+              </h2>
+
+              <p class="mt-4 text-gray-800 text-lg font-medium">
+                We support you throughout your entire experience, helping you
+                with visas, relocation, accommodation and guaranteed jobs in
+                your chosen country! Join us for an experience of a lifetime and
+                have peace of mind with full support from our team!
+              </p>
+
+              <a
+                href="#"
+                class="mt-8 inline-block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-md font-se font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
+              >
+                Get in Touch
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="bg-white">
+      <div class="container px-6 py-4 mx-auto">
+        <h1
+          class="text-2xl font-semibold text-gray-800 capitalize lg:text-4xl text-center"
+        >
+          We do not just give you information, we give you a new life!
+        </h1>
+        <p class="text-md pt-4 text-center">
+          Our consultation services are free, we believe in full transparency
+          with our clients.
+        </p>
+      </div>
+
+      <section class="bg-white dark:bg-gray-900 pt-4">
+        <div class="max-w-screen-xl px-4 pb-8 mx-auto lg:pb-16">
+          <div
+            class="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 sm:grid-cols-3 lg:grid-cols-6 dark:text-gray-500 cursor"
+          >
+            <img src="/src/images/WSE_MASTER-LOGO_COLOUR_NEGATIVE.jpg" alt="WSE">
+            <img src="/src/images/VUS.jpg" alt="WSE">
+            <img src="/src/images/Logo-Anh-Ngu-ila.png" class="h-32"alt="WSE">
+            <img src="/src/images/yola.png" class="h-32"alt="WSE">
+            <img src="/src/images/vas.jpg" class="h-32"alt="WSE">
+            <img src="/src/images/uef.png" class="h-32"alt="WSE">
+
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-white dark:bg-gray-900">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
+            <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Our Team</h2>
+                <p class="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">Get your free consultation with one of our consultants today</p>
+            </div> 
+            <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
+                <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar">
+                    </a>
+                    <div class="p-5">
+                        <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                            <a href="#">Ali Percival</a>
+                        </h3>
+                        <span class="text-gray-500 dark:text-gray-400">PGCE & TESOL qualified</span>
+                        <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Ali has over 5 years of experience working in language schools and International schools.</p>
+                    
+                    </div>
+                </div> 
+                <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="Jese Avatar">
+                    </a>
+                    <div class="p-5">
+                        <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                            <a href="#">Kwan Voong</a>
+                        </h3>
+                        <span class="text-gray-500 dark:text-gray-400">CELTA and IELTS training</span>
+                        <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Kwan has over 5 years of experience working in language schools, Universities and teaching online.</p>
+                    
+                    </div>
+                </div> 
+              
+
+            </div>  
+                <section class="bg-white dark:bg-gray-900">
+        <div class="max-w-screen-xl px-4 pb-8 mx-auto lg:pb-24 lg:px-6 ">
+            <h2 class="mb-6 text-3xl font-extrabold tracking-tight text-center text-gray-900 lg:mb-8 lg:text-3xl dark:text-white">Frequently asked questions</h2>
+            <div class="max-w-screen-md mx-auto">
+                <div id="accordion-flush" data-accordion="collapse" data-active-classes="bg-white dark:bg-gray-900 text-gray-900 dark:text-white" data-inactive-classes="text-gray-500 dark:text-gray-400">
+                    <h3 id="accordion-flush-heading-1">
+                        <button type="button" class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-900 bg-white border-b border-gray-200 dark:border-gray-700 dark:bg-gray-900 dark:text-white" data-accordion-target="#accordion-flush-body-1" aria-expanded="true" aria-controls="accordion-flush-body-1">
+                            <span>How do I book a free consultation?</span>
+                            <svg data-accordion-icon="" class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </button>
+                    </h3>
+                    <div id="accordion-flush-body-1" class="" aria-labelledby="accordion-flush-heading-1">
+                        <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">We are typically available for interviews during office hours (GMT + 7) Monday to Friday. Sign up below with your preferred time and contact details and we will get back to you as soon as possible.</p>
+                   
+                        </div>
+                    </div>
+                    <h3 id="accordion-flush-heading-2">
+                        <button type="button" class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-2" aria-expanded="false" aria-controls="accordion-flush-body-2">
+                            <span>What's the catch?</span>
+                            <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </button>
+                    </h3>
+                    <div id="accordion-flush-body-2" class="hidden" aria-labelledby="accordion-flush-heading-2">
+                        <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">Well.. there is none ! We will not ask you for any fees for our consultations.</p>
+                            <p class="text-gray-500 dark:text-gray-400">Our <a href="#" class="text-purple-600 dark:text-purple-500 hover:underline">Business model</a> is based on matching your needs with the right business and resources. By building a network of trusted partners, we are rewarded when you are successful.</p>
+                        </div>
+                    </div>
+                    <h3 id="accordion-flush-heading-3">
+                        <button type="button" class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-3" aria-expanded="false" aria-controls="accordion-flush-body-3">
+                            <span>What do I need to have to work abroad?</span>
+                            <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </button>
+                    </h3>
+                    <div id="accordion-flush-body-3" class="hidden" aria-labelledby="accordion-flush-heading-3">
+                        <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">To work legally in any country, you need to have a visa, a work permit and a residence permit. 
+
+                            We mainly focus on the Vietnamese market, and to work legally in Vietnam, you must have had a degree (in any subject) and you must be a native English speaker.
+                            </p>
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">The paperwork and steps to process your legal documents and qualifications can be quite confusing, that's why we are here to help you ! </p>
+                     
+                            <ul class="pl-5 text-gray-500 list-disc dark:text-gray-400">
+                                <li><a href="#" class="text-purple-600 dark:text-purple-500 hover:underline">Requirements</a></li>
+                                <li><a href="#" class="text-purple-600 dark:text-purple-500 hover:underline">Process</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <h3 id="accordion-flush-heading-4">
+                        <button type="button" class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-4" aria-expanded="false" aria-controls="accordion-flush-body-4">
+                            <span>How can you help me after getting a job?</span>
+                            <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </button>
+                    </h3>
+                    <div id="accordion-flush-body-4" class="hidden" aria-labelledby="accordion-flush-heading-4">
+                        <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">We pride ourselves in giving comprehensive support to our clients from the beginning of the process (before the interview) to the end of the process (after the interview) and everything in between.
+
+                            </p>
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">In our initial consultation, we will help you decide which TEFL course to take (unless you have one already), discuss which company would be fit your schedule, and help you get your visa and work permit.</p>
+                            <p class="mb-2 text-gray-500 dark:text-gray-400"> Not only that, once you begin teaching, we can continue to give you individual support with our high quality teaching materials.</p>
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">Learn more about our resources</p>
+                            <ul class="pl-5 text-gray-500 list-disc dark:text-gray-400">
+                                <li><a href="#" class="text-purple-600 dark:text-purple-500 hover:underline">Slides</a></li>
+                                <li><a href="#" class="text-purple-600 dark:text-purple-500 hover:underline">Resources</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> 
+            </div>               
+        </div>
+    </section>
+        </div>
+      </section>
+
+    <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
+  </body>
+</html>
+
